@@ -1,4 +1,4 @@
-const {Connection} = require("@solana/web3.js")
+import {Connection} from "@solana/web3.js"
 
 async function main() {
     const conn = new Connection("http://localhost:8899")
@@ -7,4 +7,4 @@ async function main() {
 
 }
 
-main().then(()=>process.exit()).catch(err=>console.error(err))
+main().then(() => process.exit()).catch(err => console.error(err))

@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/max-block/learn__npm__solana-web3.js.git"
@@ -19,5 +16,9 @@
   "homepage": "https://github.com/max-block/learn__npm__solana-web3.js#readme",
   "dependencies": {
     "@solana/web3.js": "^1.12.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.0.0",
+    "typescript": "^4.2.4"
   }
 }
