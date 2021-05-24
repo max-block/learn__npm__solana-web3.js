@@ -1,0 +1,23 @@
+{
+  "name": "learn__npm__solana-web3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/max-block/learn__npm__solana-web3.js.git"
+  },
+  "keywords": [],
+  "author": "Max Block",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/max-block/learn__npm__solana-web3.js/issues"
+  },
+  "homepage": "https://github.com/max-block/learn__npm__solana-web3.js#readme",
+  "dependencies": {
+    "@solana/web3.js": "^1.12.0"
+  }
+}
